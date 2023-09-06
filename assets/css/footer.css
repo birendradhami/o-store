@@ -45,7 +45,7 @@ body
     text-decoration: none;
     position: relative;
 }
-#credit a::after
+/* #credit a::after
 {
 content: "";
 background: white;
@@ -60,7 +60,7 @@ transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 #credit a:hover::after
 {
     height: calc(100% + 8px)
-}
+} */
 
 /* ----------------------------- MEDIA QUERY --------------------------- */
 

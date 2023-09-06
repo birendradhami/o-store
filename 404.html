@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>O-Store</title>
+        <!-- LOGO -->
+        <link rel="icon" href="assets/img/Toplogo.png">
+            <!-- EXTERNAL LINKS -->
+        <link rel="stylesheet" href="assets/css/header.css">
+        <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+        <style>
+
+            .page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+            }
+
+            .page_404  img{ width:100%;}
+
+            .four_zero_four_bg{
+            
+            background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+                height: 400px;
+                background-position: center;
+            }
+
+
+            .four_zero_four_bg h1{
+            font-size:80px;
+            }
+            
+            .four_zero_four_bg h3{
+                        font-size:80px;
+                }
+                
+                .link_404{			 
+            color: #fff!important;
+            padding: 10px 20px;
+            background: #39ac31;
+            margin: 20px 0;
+            display: inline-block;}
+            .contant_box_404{ margin-top:-50px;}
+
+            .h2{
+                position: absolute;
+                left: 45%;
+                top: 72%;
+            }
+            #text-center 
+            {
+                position: absolute;
+                left: 46%;
+                top: 50%;
+            }
+
+            #more{
+
+            color:#FFF;
+            font-family:Verdana, Geneva, sans-serif;
+            cursor:pointer;
+
+            }
+            #more {
+            border: 0 solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+            outline: 1px solid;
+            outline-color: rgba(255, 255, 255, .5);
+            outline-offset: 0px;
+            text-shadow: none;
+            transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+            } 
+
+            #more:hover {
+            border: 1px solid;
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+            outline-color: rgba(255, 255, 255, 0);
+            outline-offset: 15px;
+            text-shadow: 1px 1px 2px #427388; 
+            }
+
+            button{
+            background-color: rgb(13, 248, 33);
+            font-size: 14px;
+            color:white;
+            width: 140px;
+            height: 40px;
+            border-radius:5px;
+            border:none;
+            position: absolute;
+            top: 82%;
+            left: 46%;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <header>
+            <section>
+                <!-- MAIN CONTAINER -->
+                <div id="container">
+                    <!-- SHOP NAME -->
+                    <div id="shopName"><a href="index.html"> <img src="assets/img/reallogo.png" width="60%"></a></div>
+                        <!-- COLLCETIONS ON WEBSITE -->
+                        <div id="collection">
+                            <div id="clothing"><a href="index.html"> CLOTHING </a></div>
+                            <div id="accessories"><a href="index.html"> ACCESSORIES </a></div>
+                        </div>
+                        <!-- SEARCH SECTION -->
+                        <div id="search">
+                            <i class="fas fa-search search"></i>
+                            <input type="text" id="input" name="searchBox" placeholder="Search for Clothing and Accessories">
+                        </div>
+                        <!-- USER SECTION (CART AND USER ICON) -->
+                        <div id="user">
+                            <a href="cart.html"> <i class="fas fa-shopping-cart addedToCart"><div id="badge"> 0 </div></i></a>
+                            <a href="#"> <i class="fas fa-user-circle userIcon"></i> </a>
+                        </div>
+                </div>
+
+            </section>
+            <section class="page_404">
+                <div class="container">
+                    <div class="row">	
+                    <div class="col-sm-12 ">
+                    <div class="col-sm-10 col-sm-offset-1  text-center">
+                    <div class="four_zero_four_bg">
+                        <h1 id="text-center">404</h1>
+                    
+                    
+                    </div>
+                    
+                    <div class="contant_box_404">
+                    <h3 class="h2">
+                    Look like you're lost
+                    </h3>
+                    
+                    <button type="button" id="more" onclick="window.location.href='/index.html'">Go Home</button>
+                </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+    </body>
+</html>
