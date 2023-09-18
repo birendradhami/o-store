@@ -31,23 +31,38 @@
           text-align: center;
           align-content: center;
       }
-      @media(max-width: 732px)
+      @media(max-width: 900px)
       {
           #containerSlider img
           {
               height: 12em;
           }
-      }
+          .h1{
+             font-size : 6vw !important ;
+          }
+          .h2,.h3{
+  
+            display: none;
+          }
+      }  
       @media(max-width: 500px)
       {
-          #containerSlider img
-          {
-              height: 10em;
-          }
-      }   .h1{color: rgb(255, 255, 255);
+
+
+         #more{
+          font-size: 10px;
+          position: relative;
+          left: -5rem;
+          top: -5rem;
+          height: 35px;
+          width: 65px;
+         } 
+        }
+      
+   .h1{color: rgb(255, 255, 255);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 85px;
-      font-weight: bold;
+      font-weight: bold;      
       letter-spacing: -1px;}
 
       .h2{
@@ -82,7 +97,7 @@
 
 
       .h1,.h2,.h3,button{
-        position: absolute;
+        position: fixed;
       }
 
       button{
